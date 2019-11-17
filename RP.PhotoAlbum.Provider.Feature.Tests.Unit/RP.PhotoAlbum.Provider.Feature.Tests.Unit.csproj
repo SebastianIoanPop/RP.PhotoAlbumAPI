@@ -21,6 +21,7 @@
   <ItemGroup>
     <Folder Include="Service\" />
     <Folder Include="Repository\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RP.PhotoAlbum.Provider.Feature\RP.PhotoAlbum.Provider.Feature.csproj" />

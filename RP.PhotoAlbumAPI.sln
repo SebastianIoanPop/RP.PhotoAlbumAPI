@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EF397597
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RP.PhotoAlbum.Provider.Feature.Tests.Unit", "RP.PhotoAlbum.Provider.Feature.Tests.Unit\RP.PhotoAlbum.Provider.Feature.Tests.Unit.csproj", "{5B7AEBD6-6687-4BAD-8196-EFE9FABB0D57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RP.PhotoAlbumAPI.Tests.Unit", "RP.PhotoAlbumAPI.Tests.Unit\RP.PhotoAlbumAPI.Tests.Unit.csproj", "{D5211DE8-381C-42B7-9AF9-E8FD623DCD98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,9 +31,14 @@ Global
 		{5B7AEBD6-6687-4BAD-8196-EFE9FABB0D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B7AEBD6-6687-4BAD-8196-EFE9FABB0D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B7AEBD6-6687-4BAD-8196-EFE9FABB0D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5211DE8-381C-42B7-9AF9-E8FD623DCD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5211DE8-381C-42B7-9AF9-E8FD623DCD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5211DE8-381C-42B7-9AF9-E8FD623DCD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5211DE8-381C-42B7-9AF9-E8FD623DCD98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A096E69D-773C-4DB1-97D9-3EDA8633BC1D} = {6242E4C5-8327-4D06-862C-264B075CA576}
 		{5B7AEBD6-6687-4BAD-8196-EFE9FABB0D57} = {EF397597-3C9A-404C-8B30-1798542ADEFE}
+		{D5211DE8-381C-42B7-9AF9-E8FD623DCD98} = {EF397597-3C9A-404C-8B30-1798542ADEFE}
 	EndGlobalSection
 EndGlobal
