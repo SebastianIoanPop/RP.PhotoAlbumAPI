@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -18,8 +18,9 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
   </ItemGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\..\RP.PhotoAlbumAPI\RP.PhotoAlbumAPI.csproj" />
-    <ProjectReference Include="..\..\RP.PhotoAlbum.Provider.Feature\RP.PhotoAlbum.Provider.Feature.csproj" />
+    <ProjectReference Include="..\RP.PhotoAlbum.Provider.Feature\RP.PhotoAlbum.Provider.Feature.csproj" />
+    <ProjectReference Include="..\RP.PhotoAlbumAPI\RP.PhotoAlbumAPI.csproj" />
   </ItemGroup>
 </Project>

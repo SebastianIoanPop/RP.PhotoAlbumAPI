@@ -23,10 +23,5 @@ namespace RP.PhotoAlbum.Provider.Feature.Repository
         {
             return await _client.RunAsListAsync<Photo>(PATH_TO_PHOTOS);
         }
-
-        public static implicit operator PhotoRepository(AlbumRepository v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
